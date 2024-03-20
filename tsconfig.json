@@ -9,8 +9,8 @@
       "@enviroments/*": ["environments/*"],
       "@interfaces/*": ["app/interfaces/*"],
       "@utils/*": ["app/utils/*"],
-      "@homePage/*": ["app/modules/home/pages/*"],
-      "@componentsHome/*": ["app/modules/home/components/*"]
+      "@pages/*": ["app/modules/pages/*"],
+      "@components/*": ["app/modules/components/*"]
     },
     "forceConsistentCasingInFileNames": true,
     "strict": true,

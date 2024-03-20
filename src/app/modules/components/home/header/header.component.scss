@@ -1,0 +1,34 @@
+section {
+  width: calc(100% - 40%);
+  margin: 0 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  background: var(--black);
+  padding: 5px;
+
+  h1 {
+    width: 75%;
+  }
+
+  h2 {
+    font-size: 14px;
+    // white-space: nowrap;
+  }
+
+  a {
+    font-size: 10px;
+    color: var(--blue);
+  }
+
+  .settings-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    a,
+    h2 {
+      margin-right: 10px;
+    }
+  }
+}

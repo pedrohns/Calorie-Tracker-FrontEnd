@@ -1,0 +1,44 @@
+::-webkit-scrollbar {
+  background-color: var(--black-020);
+  color: var(--grey-010);
+}
+
+::-webkit-scrollbar-corner {
+  background-color: var(--black-030);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--grey-020);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--grey-030);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+  background: var(--black-010);
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h2,
+h3 {
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+  color: var(--white);
+}
